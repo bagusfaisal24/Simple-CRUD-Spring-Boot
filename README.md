@@ -20,12 +20,7 @@ This project is an example of RestApi's CRUD Using Spring boot and Postgress Sql
 
 ## How to run?
 ```
-gradlew.bat bootrun
-```
-
-## How to compile?
-```
-gradlew.bat build
+run as class Main DemoApplication
 ```
 ## How to cek running aps OK
 http://localhost:8080/
