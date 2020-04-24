@@ -1,0 +1,20 @@
+app:
+  name: "Simple CRUD"
+  origin: "http://localhost:3000"
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/crud-simple"
+    username: "admin"
+    password: "123"
+    driverClassName: org.postgresql.Driver
+flyway:
+  enabled: true
+  baselineOnMigrate: true
+  url: jdbc:postgresql://localhost:5432/crud-simple
+  user: admin
+  password: 123
+  validateOnMigrate: false
+server:
+  port: 8080
+
+
