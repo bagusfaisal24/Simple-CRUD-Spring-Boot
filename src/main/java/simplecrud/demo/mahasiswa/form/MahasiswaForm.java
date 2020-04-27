@@ -21,7 +21,7 @@ public class MahasiswaForm {
     @JsonDeserialize(using = LocalDateDeserializer.class)
     @JsonSerialize(using = LocalDateSerializer.class)
     @DateTimeFormat(pattern = "dd-MM-yyyy")
-    private LocalDate transactionDate;
+    private LocalDate birthDate;
 
     private String prodi;
 }
