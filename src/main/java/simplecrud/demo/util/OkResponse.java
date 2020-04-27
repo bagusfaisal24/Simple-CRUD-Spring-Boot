@@ -1,4 +1,4 @@
-package simplecrud.demo.model;
+package simplecrud.demo.util;
 
 import lombok.Data;
 

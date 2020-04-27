@@ -2,7 +2,7 @@ package simplecrud.demo.mahasiswa.model;
 
 import lombok.Getter;
 import lombok.Setter;
-import simplecrud.demo.model.BaseModel;
+import simplecrud.demo.util.BaseModel;
 
 import javax.persistence.*;
 import java.sql.Timestamp;

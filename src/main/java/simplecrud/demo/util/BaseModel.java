@@ -1,4 +1,4 @@
-package simplecrud.demo.model;
+package simplecrud.demo.util;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
